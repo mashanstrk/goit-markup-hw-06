@@ -76,8 +76,8 @@
               </svg>
             </button>
 
+            <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
             <form name="order-form" class="order-form">
-              <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
               <div class="form-field">
                 <label class="form-label" for="user-name">Ім'я</label>
                 <input
@@ -131,8 +131,9 @@
                 <svg class="icon-check" width="16" height="15">
                   <use href="./images/symbol-defs.svg#icon-check"></use>
                 </svg>
-                <label for="confirm" class="confirm-label"
-                  >Погоджуюся з розсилкою та приймаю
+
+                <label for="confirm" class="confirm-label">
+                  Погоджуюся з розсилкою та приймаю
                   <a class="confirm-link" href="#">Умови договору</a></label
                 >
               </div>
@@ -532,23 +533,23 @@
             </li>
           </ul>
         </div>
-        <form class="subscribe" name="subscribe_form">
-          <label class="subscribe-label">
-            <span class="subscribe-title">Підпишіться на розсилку</span>
+        <div class="subscribe-field">
+          <p class="subscribe-title">Підпишіться на розсилку</p>
+          <form class="subscribe" name="subscribe_form">
             <input
               class="subscribe-input"
               type="email"
               name="email"
               placeholder="E-mail"
             />
-          </label>
-          <button type="submit" class="subscribe-button">
-            Підписатися
-            <svg class="icon-send" width="24" height="24">
-              <use href="./images/symbol-defs.svg#icon-send"></use>
-            </svg>
-          </button>
-        </form>
+            <button type="submit" class="subscribe-button">
+              Підписатися
+              <svg class="icon-send" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <script src="./js/modal.js"></script>
